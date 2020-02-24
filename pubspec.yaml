@@ -1,0 +1,23 @@
+name: sandbox
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  google_maps_flutter: ^0.5.11
+  firebase_messaging: ^6.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/map_style.json
+    - assets/pin_25x25.png
